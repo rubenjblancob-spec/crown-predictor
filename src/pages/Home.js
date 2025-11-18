@@ -6,7 +6,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   // Usar useMemo para memoizar la fecha y evitar recrearla en cada render
-  const eventDate = useMemo(() => new Date('2025-11-15T19:00:00'), []);
+  const eventDate = useMemo(() => new Date('2025-11-20T19:00:00'), []);
 
   useEffect(() => {
     const timer = setInterval(() => {
