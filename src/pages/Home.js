@@ -55,11 +55,11 @@ export default function Home() {
       {/* Contenido principal */}
       <div className="max-w-2xl mx-auto">
         <h1 className="text-5xl font-bold text-fuchsia-400 mb-8 drop-shadow-lg">
-          👑 Crown Predictor
+          👑 Miss Universe 2025
         </h1>
         
         <p className="text-xl text-gray-300 mb-8 max-w-md mx-auto">
-          Predice los resultados y demuestra que eres el mejor adivino del evento
+          Predice los resultados y demuestra que eres la mejor missologa
         </p>
 
         <div className="bg-black/40 backdrop-blur-sm p-8 rounded-2xl border border-fuchsia-500/30 mb-8">
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="text-gray-400 text-sm space-y-2 mt-6">
           <p>✨ Predice los resultados y compite con otros participantes</p>
           <p>🏆 Gana puntos y sube en el ranking</p>
-          <p>👑 Demuestra que tienes el toque real</p>
+          <p>👑 Demuestra que eres experta en misses</p>
           <p className="text-fuchsia-400 font-medium mt-4">
             Inicia sesión o regístrate para comenzar a predecir
           </p>

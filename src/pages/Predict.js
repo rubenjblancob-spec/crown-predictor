@@ -237,7 +237,7 @@ export default function Predict() {
             {/* Logo solo con emoji */}
             <div className="flex items-center cursor-pointer" onClick={() => navigate('/predict')}>
               <span className="text-2xl">👑</span>
-              <span className="ml-2 text-lg font-bold text-fuchsia-400 hidden sm:block">Crown Predictor</span>
+              <span className="ml-2 text-lg font-bold text-fuchsia-400 hidden sm:block">M 🟄 U</span>
             </div>
 
             {/* Navegación - Solo emojis en móvil */}

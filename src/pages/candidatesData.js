@@ -339,7 +339,7 @@ export const initialCandidates = [
     name: "Andromeda Osam-Peters",
     country: "Ghana",
     flag: "https://flagcdn.com/w40/gh.png",
-    photo: "https://i.ibb.co/chRpQy3R/Guinea.png",
+    photo: "https://i.ibb.co/zTkBqcyz/Gana.png",
     phase: "inicial",
     order: 43
   },
@@ -499,7 +499,7 @@ export const initialCandidates = [
     name: "Britanny Robinson",
     country: "Islas Vírgenes de los Estados Unidos",
     flag: "https://flagcdn.com/w40/vi.png",
-    photo: "https://i.ibb.co/qY9rVP3M/Islas-Virgenes-Britanicas.png",
+    photo: "https://i.ibb.co/L7Hw8bH/Islas-Virgenes.png",
     phase: "inicial",
     order: 63
   },
