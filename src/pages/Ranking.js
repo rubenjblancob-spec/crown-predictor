@@ -575,7 +575,7 @@ export default function Ranking() {
               onClick={() => navigate('/predict')}
               className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-6 py-3 rounded-lg text-base font-bold transition-all duration-300"
             >
-              🎯 Comenzar a Predecir
+              🎯 Predecir
             </button>
           </div>
         )}
