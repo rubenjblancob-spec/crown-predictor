@@ -12,7 +12,7 @@ jobs:
     - name: Checkout del código
       uses: actions/checkout@v4
     
-    - name: Setup Node.js 20
+    - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20'
@@ -24,9 +24,11 @@ jobs:
     - name: Build de la aplicación
       run: npm run build
     
-    - name: Deploy a Firebase Hosting
+    - name: Deploy a Firebase Hosting (PRODUCCIÓN)
       uses: FirebaseExtended/action-hosting-deploy@v0
       with:
         repoToken: '${{ secrets.GITHUB_TOKEN }}'
         firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
         projectId: crownpredictor-1b891
+        channelId: live
+        target: 'crownpredictor-1b891'
